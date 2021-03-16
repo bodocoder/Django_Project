@@ -40,7 +40,7 @@ def predict_house_price(model, bath, balcony, area,size,area_type, availability,
 
 #print(len(columns))
 import joblib
-_model = joblib.load('bangalore_house_price_prediction_rfr_model.pkl')
+_model = joblib.load('bangalore_house_price_prediction_xgb_model.pkl')
 sc = joblib.load('feature_scaller.pkl')
 
 
